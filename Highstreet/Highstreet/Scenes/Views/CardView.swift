@@ -9,7 +9,7 @@
 import UIKit
 
 class CardView: UIView, NibView {
-    var delegate: CardViewDelegate?
+    weak var delegate: CardViewDelegate?
     
     var rotationAngle : Float = 0.0
     var zoomScale : Float = 0.0
